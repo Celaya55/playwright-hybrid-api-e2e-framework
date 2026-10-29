@@ -76,6 +76,7 @@ test('Test mandar articulo sin un campomobligatoorio', async () => {
 });
 test('Debe retornar 401 al intentar crear un artículo sin autenticación', async () => {
     // 1. Preparamos un payload con datos válidos
+    let token = "0";
     const newArticlePayload = {
       article: {
         title: `Artículo no autorizado ${Date.now()}`,
@@ -86,7 +87,7 @@ test('Debe retornar 401 al intentar crear un artículo sin autenticación', asyn
     };
 
     // 2. Enviamos la petición sin pasar el parámetro del token
-    const response = await articleController.createArticle(newArticlePayload);
+    const response = await articleController.createArticle(newArticlePayload,token);
 
     // 3. Validamos que la API rechace la petición con un 401 Unauthorized
     expect(response.status()).toBe(401);
