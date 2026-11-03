@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","76","Debe retornar 401 al intentar crear un artículo sin autenticación","api","2026-11-03","passed","2026-11-03","API: Gestión de Artículos","tests/api/article.spec.ts","",""
+"","1431","Debe permitir crear un nuevo artículo desde la interfaz web","e2e","2026-11-03","passed","2026-11-03","E2E: Creación de Artículos","tests/e2e/create-article.spec.ts","",""
+"","196","POST /api/users - Debería registrar un nuevo usuario con esquema válido","api","2026-11-03","passed","2026-11-03","API - User Management & Schema Validation","tests/api/auth.spec.ts","",""
+"","584","Debe crear un artículo exitosamente y validar el contrato de respuesta","api","2026-11-03","passed","2026-11-03","API: Gestión de Artículos","tests/api/article.spec.ts","",""
+"","465","Test mandar articulo sin un campomobligatoorio","api","2026-11-03","passed","2026-11-03","API: Gestión de Artículos","tests/api/article.spec.ts","",""

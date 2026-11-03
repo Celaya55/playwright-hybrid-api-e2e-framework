@@ -1,0 +1,1 @@
+Mensaje de error 401: { status: 'error', message: 'missing authorization credentials' }
